@@ -1,15 +1,8 @@
-@font-face {
-	font-family: 'Techna Sans';
-	src: url(../fonts/TechnaSans-Regular.otf);
-}
-
-html{
-	font-size: calc(16px + 0.05vw);
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 body{
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: 300;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
 	color: #333;
 	-webkit-text-size-adjust: 100%;
 }
@@ -18,8 +11,8 @@ h1.title {
     font-size: 2.0vw;
 	position: absolute;
 	top: 2%;
-	left: 37%;
-    font-family: 'Techna Sans', sans-serif;
+	left: 33%;
+	font-family: 'Josefin Sans', sans-serif;
 	z-index: 98;
 }
 
@@ -47,7 +40,8 @@ a{
 	background: #333;
 	color: #fff;
 	z-index: 200;
-	font-family: 'Techna Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
 	align-items: center;
 	justify-content: center;
 	display: none;

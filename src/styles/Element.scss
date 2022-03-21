@@ -18,7 +18,7 @@
     font-weight: 700;
     font-size: 1.7vw;
     margin-bottom: 0.1vw;
-    font-family: 'Techna Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   .number {
@@ -46,7 +46,6 @@
 
 .Element.blank {
   border: 0;
-  // border: 1px solid #fff;
   background: #fff;
   height: 1.6vh;
 }
@@ -117,7 +116,7 @@
   }
 }
 
-/* transformation colors */
+/* transformation classification colors */
 div.Element.aesthetic {
   background-color: #fabed4;
 }
@@ -185,7 +184,7 @@ div.Element.resize {
 }
 
 .line1, .line2 {
-	font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
 	color: #333;
 	-webkit-text-size-adjust: 100%;
