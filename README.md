@@ -1,4 +1,6 @@
 # Cloudinary Transformations Periodic Table
+`cld-periodic-table`  
+
 
 The table helps to organize and classify Cloudinary transformations.  You'll find the name and the the URL key used to create a transformation.  The elements are abbreviations intended to help remember and identify the transformations.
 
