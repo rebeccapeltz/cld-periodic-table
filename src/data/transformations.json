@@ -1173,7 +1173,7 @@
       {
         "name": "Height",
         "line1": "height",
-        "line2": "e_height",
+        "line2": "h_",
         "class": "resize",
         "number": 112,
         "symbol": "H"
