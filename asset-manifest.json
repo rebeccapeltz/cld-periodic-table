@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/cld-periodic-table/static/css/main.b9162379.css",
+    "main.css": "/cld-periodic-table/static/css/main.35420601.css",
     "main.js": "/cld-periodic-table/static/js/main.350e964b.js",
-    "static/media/TechnaSans-Regular.otf": "/cld-periodic-table/static/media/TechnaSans-Regular.c3353ef9bfda722f06e9.otf",
     "index.html": "/cld-periodic-table/index.html",
     "static/media/rotate-cw.svg": "/cld-periodic-table/static/media/rotate-cw.f24b061c34c29c65d4ee8439483b903d.svg",
-    "main.b9162379.css.map": "/cld-periodic-table/static/css/main.b9162379.css.map",
+    "main.35420601.css.map": "/cld-periodic-table/static/css/main.35420601.css.map",
     "main.350e964b.js.map": "/cld-periodic-table/static/js/main.350e964b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9162379.css",
+    "static/css/main.35420601.css",
     "static/js/main.350e964b.js"
   ]
 }
