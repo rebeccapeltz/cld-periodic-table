@@ -6,6 +6,7 @@
       "line2": "function",
       "class": "custom",
       "number": 1,
+      "path": "fn_",
       "symbol": "Fn"
     },
     {
@@ -14,6 +15,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1001,
+      "path": "",
       "symbol": ""
     },
     {
@@ -22,6 +24,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1002,
+      "path": "",
       "symbol": ""
     },
     {
@@ -30,6 +33,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1003,
+      "path": "",
       "symbol": ""
     },
     {
@@ -38,6 +42,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1004,
+      "path": "",
       "symbol": ""
     },
     {
@@ -46,6 +51,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1005,
+      "path": "",
       "symbol": ""
     },
     {
@@ -54,6 +60,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1006,
+      "path": "",
       "symbol": ""
     },
     {
@@ -62,6 +69,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1007,
+      "path": "",
       "symbol": ""
     },
     {
@@ -70,6 +78,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1008,
+      "path": "",
       "symbol": ""
     },
     {
@@ -78,6 +87,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1009,
+      "path": "",
       "symbol": ""
     },
     {
@@ -86,6 +96,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1010,
+      "path": "",
       "symbol": ""
     },
     {
@@ -94,6 +105,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1011,
+      "path": "",
       "symbol": ""
     },
     {
@@ -102,6 +114,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1012,
+      "path": "",
       "symbol": ""
     },
     {
@@ -110,6 +123,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1013,
+      "path": "",
       "symbol": ""
     },
     {
@@ -118,6 +132,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1014,
+      "path": "",
       "symbol": ""
     },
     {
@@ -126,6 +141,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1015,
+      "path": "",
       "symbol": ""
     },
     {
@@ -134,6 +150,7 @@
       "line2": "",
       "class": "Blank",
       "number": 1016,
+      "path": "",
       "symbol": ""
     },
     {
@@ -142,6 +159,7 @@
       "line2": "p_",
       "class": "sprite",
       "number": 2,
+      "path": "p_prefix",
       "symbol": "P"
     },
     {
@@ -150,6 +168,7 @@
       "line2": "ac_",
       "class": "audio",
       "number": 3,
+      "path": "ac_audio_codec",
       "symbol": "Ac"
     },
     {
@@ -158,6 +177,7 @@
       "line2": "af_",
       "class": "audio",
       "number": 4,
+      "path": "af_audio_frequency",
       "symbol": "Af"
     },
     {
@@ -166,6 +186,7 @@
       "line2": "",
       "class": "Blank",
       "number": 2001,
+      "path": "",
       "symbol": ""
     },
     {
@@ -174,6 +195,7 @@
       "line2": "",
       "class": "Blank",
       "number": 2002,
+      "path": "",
       "symbol": ""
     },
     {
@@ -182,6 +204,7 @@
       "line2": "",
       "class": "Blank",
       "number": 2003,
+      "path": "",
       "symbol": ""
     },
     {
@@ -190,6 +213,7 @@
       "line2": "",
       "class": "Blank",
       "number": 2004,
+      "path": "",
       "symbol": ""
     },
     {
@@ -198,6 +222,7 @@
       "line2": "",
       "class": "Blank",
       "number": 2005,
+      "path": "",
       "symbol": ""
     },
     {
@@ -206,6 +231,7 @@
       "line2": "",
       "class": "Blank",
       "number": 2006,
+      "path": "",
       "symbol": ""
     },
     {
@@ -214,6 +240,7 @@
       "line2": "",
       "class": "Blank",
       "number": 2007,
+      "path": "",
       "symbol": ""
     },
     {
@@ -222,6 +249,7 @@
       "line2": "",
       "class": "Blank",
       "number": 2008,
+      "path": "",
       "symbol": ""
     },
     {
@@ -230,6 +258,7 @@
       "line2": "",
       "class": "Blank",
       "number": 2009,
+      "path": "",
       "symbol": ""
     },
     {
@@ -238,6 +267,7 @@
       "line2": "",
       "class": "Blank",
       "number": 2010,
+      "path": "",
       "symbol": ""
     },
 
@@ -247,6 +277,7 @@
       "line2": "f_",
       "class": "optimization",
       "number": 5,
+      "path": "f_format",
       "symbol": "F"
     },
 
@@ -256,6 +287,7 @@
       "line2": "q_",
       "class": "optimization",
       "number": 6,
+      "path": "q_quality",
       "symbol": "Q"
     },
     {
@@ -264,14 +296,16 @@
       "line2": "dpr_",
       "class": "optimization",
       "number": 7,
+      "path": "dpr_dpr",
       "symbol": "Dr"
     },
     {
       "name": "If",
-      "line1": "if conditios",
+      "line1": "if condition",
       "line2": "if_",
       "class": "template",
       "number": 8,
+      "path": "if_if_condition",
       "symbol": "If"
     },
     {
@@ -280,6 +314,7 @@
       "line2": "t_",
       "class": "template",
       "number": 9,
+      "path": "t_named_transformation",
       "symbol": "T"
     },
     {
@@ -288,6 +323,7 @@
       "line2": "$_",
       "class": "template",
       "number": 10,
+      "path": "",
       "symbol": "$"
     },
     {
@@ -296,6 +332,7 @@
       "line2": "b_",
       "class": "aesthetic",
       "number": 11,
+      "path": "_variable",
       "symbol": "B"
     },
     {
@@ -304,6 +341,7 @@
       "line2": "bo_",
       "class": "aesthetic",
       "number": 12,
+      "path": "bo_border",
       "symbol": "Bo"
     },
     {
@@ -312,6 +350,7 @@
       "line2": "co_",
       "class": "aesthetic",
       "number": 13,
+      "path": "co_color",
       "symbol": "Co"
     },
     {
@@ -320,6 +359,7 @@
       "line2": "cs_",
       "class": "aesthetic",
       "number": 14,
+      "path": "cs_color_space",
       "symbol": "Cs"
     },
     {
@@ -328,6 +368,7 @@
       "line2": "r_",
       "class": "aesthetic",
       "number": 15,
+      "path": "",
       "symbol": "R"
     },
 
@@ -337,6 +378,7 @@
       "line2": "",
       "class": "Blank",
       "number": 3001,
+      "path": "r_round_corners",
       "symbol": ""
     },
     {
@@ -345,6 +387,7 @@
       "line2": "",
       "class": "Blank",
       "number": 3002,
+      "path": "",
       "symbol": ""
     },
     {
@@ -353,6 +396,7 @@
       "line2": "",
       "class": "Blank",
       "number": 3003,
+      "path": "",
       "symbol": ""
     },
     {
@@ -361,6 +405,7 @@
       "line2": "",
       "class": "Blank",
       "number": 3004,
+      "path": "",
       "symbol": ""
     },
     {
@@ -369,6 +414,7 @@
       "line2": "",
       "class": "Blank",
       "number": 3005,
+      "path": "",
       "symbol": ""
     },
     {
@@ -377,6 +423,7 @@
       "line2": "",
       "class": "Blank",
       "number": 3006,
+      "path": "",
       "symbol": ""
     },
     {
@@ -385,6 +432,7 @@
       "line2": "",
       "class": "Blank",
       "number": 3007,
+      "path": "",
       "symbol": ""
     },
     {
@@ -393,6 +441,7 @@
       "line2": "a_",
       "class": "aesthetic",
       "number": 16,
+      "path": "a_angle",
       "symbol": "A"
     },
     {
@@ -401,6 +450,7 @@
       "line2": "fl_",
       "class": "aesthetic",
       "number": 17,
+      "path": "fl_flag",
       "symbol": "Fl"
     },
     {
@@ -409,6 +459,7 @@
       "line2": "o_",
       "class": "aesthetic",
       "number": 18,
+      "path": "o_opacity",
       "symbol": "Op"
     },
     {
@@ -417,6 +468,7 @@
       "line2": "g_",
       "class": "attention",
       "number": 19,
+      "path": "g_gravity",
       "symbol": "G"
     },
     {
@@ -425,6 +477,7 @@
       "line2": "z_",
       "class": "attention",
       "number": 20,
+      "path": "z_zoom",
       "symbol": "Z"
     },
     {
@@ -433,23 +486,26 @@
       "line2": "pg_",
       "class": "photoshop",
       "number": 21,
+      "path": "pg_page_or_file_layer",
       "symbol": "Pg"
     },
 
     {
-      "name": "Layout",
-      "line1": "layout",
+      "name": "Layer",
+      "line1": "layer",
       "line2": "l_",
       "class": "layer",
       "number": 22,
+      "path": "l_layer",
       "symbol": "La"
     },
     {
-      "name": "Underlay",
-      "line1": "underlay",
+      "name": "Under Layer",
+      "line1": "under layer",
       "line2": "u_",
       "class": "layer",
       "number": 23,
+      "path": "u_layer",
       "symbol": "Un"
     },
     {
@@ -458,6 +514,7 @@
       "line2": "x_",
       "class": "layer",
       "number": 24,
+      "path": "x_y_coordinates",
       "symbol": "Pg"
     },
     {
@@ -466,6 +523,7 @@
       "line2": "y_",
       "class": "layer",
       "number": 25,
+      "path": "x_y_coordinates",
       "symbol": "Y"
     },
     {
@@ -474,6 +532,7 @@
       "line2": "ariel_",
       "class": "layer",
       "number": 26,
+      "path": "l_text",
       "symbol": "Pg"
     },
     {
@@ -482,6 +541,7 @@
       "line2": "_100",
       "class": "layer",
       "number": 27,
+      "path": "l_text",
       "symbol": "Fs"
     },
     {
@@ -490,6 +550,7 @@
       "line2": "_bold",
       "class": "layer",
       "number": 28,
+      "path": "l_text",
       "symbol": "Fw"
     },
     {
@@ -498,6 +559,7 @@
       "line2": ":abc",
       "class": "layer",
       "number": 29,
+      "path": "l_text",
       "symbol": "Tx"
     },
     {
@@ -506,6 +568,7 @@
       "line2": "eo_",
       "class": "audio-video",
       "number": 30,
+      "path": "eo_end_offset",
       "symbol": "Eo"
     },
     {
@@ -514,6 +577,7 @@
       "line2": "du_",
       "class": "audio-video",
       "number": 31,
+      "path": "du_duration",
       "symbol": "Du"
     },
     {
@@ -522,6 +586,7 @@
       "line2": "so_",
       "class": "audio-video",
       "number": 32,
+      "path": "so_start_offset",
       "symbol": "So"
     },
     {
@@ -530,6 +595,7 @@
       "line2": "br_",
       "class": "audio-video",
       "number": 33,
+      "path": "br_bitrate",
       "symbol": "Br"
     },
     {
@@ -538,6 +604,7 @@
       "line2": "dl_",
       "class": "audio-video",
       "number": 34,
+      "path": "dl_delay",
       "symbol": "Dl"
     },
     {
@@ -546,6 +613,7 @@
       "line2": "fp_",
       "class": "audio-video",
       "number": 35,
+      "path": "fps_fps",
       "symbol": "Fp"
     },
     {
@@ -554,6 +622,7 @@
       "line2": "ki_",
       "class": "audio-video",
       "number": 36,
+      "path": "ki_keyframe_interval",
       "symbol": "Pg"
     },
     {
@@ -562,6 +631,7 @@
       "line2": "sp_",
       "class": "audio-video",
       "number": 37,
+      "path": "sp_streaming_profile",
       "symbol": "Sp"
     },
     {
@@ -570,6 +640,7 @@
       "line2": "vc_",
       "class": "audio-video",
       "number": 38,
+      "path": "vc_video_codec",
       "symbol": "Vc"
     },
     {
@@ -578,6 +649,7 @@
       "line2": "vs_",
       "class": "audio-video",
       "number": 39,
+      "path": "vs_video_sample",
       "symbol": "Vs"
     },
 
@@ -587,6 +659,7 @@
       "line2": "e_accelerate",
       "class": "effect",
       "number": 40,
+      "path": "",
       "symbol": "Aa"
     },
     {
@@ -595,6 +668,7 @@
       "line2": "e_adv_redeye",
       "class": "effect",
       "number": 41,
+      "path": "e_accelerate",
       "symbol": "Ay"
     },
     {
@@ -603,6 +677,7 @@
       "line2": "e_anti_removal",
       "class": "effect",
       "number": 42,
+      "path": "e_anti_removal",
       "symbol": "Av"
     },
     {
@@ -611,6 +686,7 @@
       "line2": "e_art",
       "class": "effect",
       "number": 43,
+      "path": "e_art",
       "symbol": "At"
     },
     {
@@ -619,6 +695,7 @@
       "line2": "e_auto_brightness",
       "class": "effect",
       "number": 44,
+      "path": "e_auto_brightness",
       "symbol": "Au"
     },
     {
@@ -627,6 +704,7 @@
       "line2": "e_auto_color",
       "class": "effect",
       "number": 45,
+      "path": "",
       "symbol": "Al"
     },
     {
@@ -635,6 +713,7 @@
       "line2": "e_auto_contrast",
       "class": "effect",
       "number": 46,
+      "path": "e_auto_contrast",
       "symbol": "As"
     },
     {
@@ -643,6 +722,7 @@
       "line2": "e_assist_colorblind",
       "class": "effect",
       "number": 47,
+      "path": "e_assist_colorblind",
       "symbol": "Ab"
     },
     {
@@ -651,6 +731,7 @@
       "line2": "e_bgremoval",
       "class": "effect",
       "number": 48,
+      "path": "e_bgremoval",
       "symbol": "Bg"
     },
     {
@@ -659,6 +740,7 @@
       "line2": "e_black_white",
       "class": "effect",
       "number": 49,
+      "path": "e_blackwhite",
       "symbol": "Bw"
     },
     {
@@ -667,6 +749,7 @@
       "line2": "e_blue",
       "class": "effect",
       "number": 50,
+      "path": "e_blue",
       "symbol": "Bl"
     },
     {
@@ -675,6 +758,7 @@
       "line2": "e_blur",
       "class": "effect",
       "number": 51,
+      "path": "e_blur",
       "symbol": "Bu"
     },
     {
@@ -683,6 +767,7 @@
       "line2": "e_blur_faces",
       "class": "effect",
       "number": 52,
+      "path": "e_blur_faces",
       "symbol": "Bf"
     },
     {
@@ -691,6 +776,7 @@
       "line2": "e_blur_region",
       "class": "effect",
       "number": 53,
+      "path": "",
       "symbol": "Bn"
     },
     {
@@ -699,6 +785,7 @@
       "line2": "e_boomerang",
       "class": "effect",
       "number": 54,
+      "path": "e_blur_region",
       "symbol": "Bn"
     },
     {
@@ -707,6 +794,7 @@
       "line2": "e_brightness",
       "class": "effect",
       "number": 55,
+      "path": "e_brightness",
       "symbol": "Bg"
     },
     {
@@ -715,14 +803,16 @@
       "line2": "e_brightness_hsb",
       "class": "effect",
       "number": 56,
+      "path": "e_brightness_hsb",
       "symbol": "Bh"
     },
     {
       "name": "Cartoonify",
       "line1": "cartoonify",
-      "line2": "e_cartonify",
+      "line2": "e_cartoonify",
       "class": "effect",
       "number": 57,
+      "path": "e_cartoonify",
       "symbol": "Ca"
     },
 
@@ -732,6 +822,7 @@
       "line2": "e_colorize",
       "class": "effect",
       "number": 58,
+      "path": "e_colorize",
       "symbol": "Cz"
     },
     {
@@ -740,6 +831,7 @@
       "line2": "e_contrast",
       "class": "effect",
       "number": 59,
+      "path": "e_contrast",
       "symbol": "Cn"
     },
     {
@@ -748,6 +840,7 @@
       "line2": "e_cut_out",
       "class": "effect",
       "number": 60,
+      "path": "e_cut_out",
       "symbol": "Cu"
     },
 
@@ -757,6 +850,7 @@
       "line2": "e_deshake",
       "class": "effect",
       "number": 61,
+      "path": "",
       "symbol": "De"
     },
     {
@@ -765,6 +859,7 @@
       "line2": "e_distort",
       "class": "effect",
       "number": 62,
+      "path": "e_deshake",
       "symbol": "Di"
     },
 
@@ -774,6 +869,7 @@
       "line2": "e_displace",
       "class": "effect",
       "number": 63,
+      "path": "",
       "symbol": "Dp"
     },
     {
@@ -782,6 +878,7 @@
       "line2": "e_fade",
       "class": "effect",
       "number": 64,
+      "path": "e_displace",
       "symbol": "Fa"
     },
     {
@@ -790,6 +887,7 @@
       "line2": "e_fill_light",
       "class": "effect",
       "number": 65,
+      "path": "e_fill_light ",
       "symbol": "Fg"
     },
     {
@@ -798,6 +896,7 @@
       "line2": "e_gamma",
       "class": "effect",
       "number": 66,
+      "path": "e_gamma",
       "symbol": "Ga"
     },
     {
@@ -806,6 +905,7 @@
       "line2": "e_gradient_fade",
       "class": "effect",
       "number": 67,
+      "path": "",
       "symbol": "Gr"
     },
     {
@@ -814,6 +914,7 @@
       "line2": "e_grayscale",
       "class": "effect",
       "number": 68,
+      "path": "e_gradient_fade",
       "symbol": "Gy"
     },
     {
@@ -822,6 +923,7 @@
       "line2": "e_green",
       "class": "effect",
       "number": 69,
+      "path": "e_green",
       "symbol": "Ge"
     },
     {
@@ -830,6 +932,7 @@
       "line2": "e_hue",
       "class": "effect",
       "number": 70,
+      "path": "e_hue",
       "symbol": "Hu"
     },
     {
@@ -838,6 +941,7 @@
       "line2": "e_improve",
       "class": "effect",
       "number": 71,
+      "path": "e_improve",
       "symbol": "Im"
     },
     {
@@ -846,6 +950,7 @@
       "line2": "e_lightroom",
       "class": "effect",
       "number": 72,
+      "path": "e_lightroom",
       "symbol": "Li"
     },
     {
@@ -854,6 +959,7 @@
       "line2": "e_loop",
       "class": "effect",
       "number": 73,
+      "path": "e_loop",
       "symbol": "Lo"
     },
     {
@@ -862,6 +968,7 @@
       "line2": "e_make_transparent",
       "class": "effect",
       "number": 74,
+      "path": "e_make_transparent",
       "symbol": "Mt"
     },
     {
@@ -870,6 +977,7 @@
       "line2": "e_multiply",
       "class": "effect",
       "number": 75,
+      "path": "e_multiply",
       "symbol": "Mu"
     },
     {
@@ -878,6 +986,7 @@
         "line2": "e_negate",
         "class": "effect",
         "number": 76,
+        "path": "",
         "symbol": "Ne"
       },
       {
@@ -886,6 +995,7 @@
         "line2": "e_noise",
         "class": "effect",
         "number": 77,
+        "path": "e_negate",
         "symbol": "No"
       },
       {
@@ -894,6 +1004,7 @@
         "line2": "e_oil_paint",
         "class": "effect",
         "number": 78,
+        "path": "e_noise",
         "symbol": "Oi"
       },
       {
@@ -902,6 +1013,7 @@
         "line2": "e_opacity_threshold",
         "class": "effect",
         "number": 79,
+        "path": "e_opacity_threshold",
         "symbol": "Ot"
       },
       {
@@ -910,6 +1022,7 @@
         "line2": "e_ordered_dither",
         "class": "effect",
         "number": 80,
+        "path": "e_ordered_dither",
         "symbol": "Or"
       },
       {
@@ -918,6 +1031,7 @@
         "line2": "e_outline",
         "class": "effect",
         "number": 81,
+        "path": "e_outline",
         "symbol": "Ou"
       },
       {
@@ -926,6 +1040,7 @@
         "line2": "e_overlay",
         "class": "effect",
         "number": 82,
+        "path": "e_overlay",
         "symbol": "Ov"
       },
       {
@@ -934,6 +1049,7 @@
         "line2": "e_pixelate",
         "class": "effect",
         "number": 83,
+        "path": "e_pixelate",
         "symbol": "Pi"
       },
       {
@@ -942,6 +1058,7 @@
         "line2": "e_pixelate_faces",
         "class": "effect",
         "number": 84,
+        "path": "e_pixelate_faces",
         "symbol": "Pf"
       },
       {
@@ -950,6 +1067,7 @@
         "line2": "e_pixelate_region",
         "class": "effect",
         "number": 85,
+        "path": "e_pixelate_region",
         "symbol": "Pr"
       },
       {
@@ -958,6 +1076,7 @@
         "line2": "e_preview",
         "class": "effect",
         "number": 86,
+        "path": "e_preview",
         "symbol": "Mu"
       },
       {
@@ -966,6 +1085,7 @@
         "line2": "e_progress_bar",
         "class": "effect",
         "number": 87,
+        "path": "e_progressbar",
         "symbol": "Po"
       },
       {
@@ -974,6 +1094,7 @@
         "line2": "e_recolor",
         "class": "effect",
         "number": 88,
+        "path": "e_recolor",
         "symbol": "Re"
       },
       {
@@ -982,6 +1103,7 @@
         "line2": "e_red",
         "class": "effect",
         "number": 89,
+        "path": "e_red",
         "symbol": "Rd"
       },
       {
@@ -990,6 +1112,7 @@
         "line2": "e_redeye",
         "class": "effect",
         "number": 90,
+        "path": "e_redeye",
         "symbol": "Ry"
       },
       {
@@ -998,6 +1121,7 @@
         "line2": "e_replace_color",
         "class": "effect",
         "number": 91,
+        "path": "e_replace_color",
         "symbol": "Rc"
       },
       {
@@ -1006,6 +1130,7 @@
         "line2": "e_reverse",
         "class": "effect",
         "number": 92,
+        "path": "e_reverse",
         "symbol": "Rv"
       },
       {
@@ -1014,6 +1139,7 @@
         "line2": "e_saturation",
         "class": "effect",
         "number": 93,
+        "path": "e_saturation",
         "symbol": "Sa"
       },
 
@@ -1023,6 +1149,7 @@
         "line2": "e_sepia",
         "class": "effect",
         "number": 94,
+        "path": "e_sepia",
         "symbol": "Se"
       },
       {
@@ -1031,6 +1158,7 @@
         "line2": "e_screen",
         "class": "effect",
         "number": 95,
+        "path": "e_screen",
         "symbol": "Sc"
       },
       {
@@ -1039,6 +1167,7 @@
         "line2": "e_shadow",
         "class": "effect",
         "number": 96,
+        "path": "",
         "symbol": "Sh"
       },
       {
@@ -1047,6 +1176,7 @@
         "line2": "e_sharpen",
         "class": "effect",
         "number": 97,
+        "path": "e_shadow",
         "symbol": "Sp"
       },
       {
@@ -1055,6 +1185,7 @@
         "line2": "e_shear",
         "class": "effect",
         "number": 98,
+        "path": "",
         "symbol": "Sr"
       },
       {
@@ -1063,6 +1194,7 @@
         "line2": "e_simulate_color_blind",
         "class": "effect",
         "number": 99,
+        "path": "e_shear",
         "symbol": "Si"
       },
       {
@@ -1071,6 +1203,7 @@
         "line2": "e_style_transfer",
         "class": "effect",
         "number": 100,
+        "path": "e_style_transfer",
         "symbol": "St"
       },
       {
@@ -1079,6 +1212,7 @@
         "line2": "e_theme",
         "class": "effect",
         "number": 101,
+        "path": "e_theme",
         "symbol": "Th"
       },
       {
@@ -1087,6 +1221,7 @@
         "line2": "e_tint",
         "class": "effect",
         "number": 102,
+        "path": "e_tint",
         "symbol": "Ti"
       },
       {
@@ -1095,6 +1230,7 @@
         "line2": "e_transition",
         "class": "effect",
         "number": 103,
+        "path": "e_transition",
         "symbol": "Tr"
       },
       {
@@ -1103,6 +1239,7 @@
         "line2": "e_trim",
         "class": "effect",
         "number": 104,
+        "path": "e_trim",
         "symbol": "Tm"
       },
       {
@@ -1111,6 +1248,7 @@
         "line2": "e_unsharp_mask",
         "class": "effect",
         "number": 105,
+        "path": "e_unsharp_mask",
         "symbol": "Um"
       },
       
@@ -1120,6 +1258,7 @@
         "line2": "e_vectorize",
         "class": "effect",
         "number": 106,
+        "path": "e_vectorize",
         "symbol": "Ve"
       },
       {
@@ -1128,6 +1267,7 @@
         "line2": "e_vibrance",
         "class": "effect",
         "number": 107,
+        "path": "e_vibrance",
         "symbol": "Vi"
       },
       {
@@ -1136,6 +1276,7 @@
         "line2": "e_viesus_correct",
         "class": "effect",
         "number": 108,
+        "path": "e_viesus_correct",
         "symbol": "Vt"
       },
       {
@@ -1144,6 +1285,7 @@
         "line2": "e_vignette",
         "class": "effect",
         "number": 109,
+        "path": "e_vignette",
         "symbol": "Vg"
       },
       {
@@ -1152,6 +1294,7 @@
         "line2": "e_volume",
         "class": "effect",
         "number": 110,
+        "path": "e_volume",
         "symbol": "Vo"
       },
       {
@@ -1160,6 +1303,7 @@
         "line2": "",
         "class": "Blank",
         "number": 9001,
+        "path": "",
         "symbol": ""
       },
       {
@@ -1168,6 +1312,7 @@
         "line2": "ar_",
         "class": "resize",
         "number": 111,
+        "path": "ar_aspect_ratio",
         "symbol": "Ar"
       },
       {
@@ -1176,6 +1321,7 @@
         "line2": "h_",
         "class": "resize",
         "number": 112,
+        "path": "h_height",
         "symbol": "H"
       },
       {
@@ -1184,6 +1330,7 @@
         "line2": "w_",
         "class": "resize",
         "number": 113,
+        "path": "w_width",
         "symbol": "W"
       },
       {
@@ -1192,6 +1339,7 @@
         "line2": "c_fill",
         "class": "resize",
         "number": 114,
+        "path": "",
         "symbol": "Fi"
       },
       {
@@ -1200,6 +1348,7 @@
         "line2": "c_fill_pad",
         "class": "resize",
         "number": 115,
+        "path": "c_fill_pad",
         "symbol": "Fd"
       },
       {
@@ -1208,6 +1357,7 @@
         "line2": "c_fit",
         "class": "resize",
         "number": 116,
+        "path": "c_fit",
         "symbol": "Ft"
       },
       {
@@ -1216,6 +1366,7 @@
         "line2": "c_imagga_crop",
         "class": "resize",
         "number": 117,
+        "path": "c_imagga_crop",
         "symbol": "Ic"
       },
       {
@@ -1224,6 +1375,7 @@
         "line2": "c_imagga_scale",
         "class": "resize",
         "number": 118,
+        "path": "c_imagga_scale",
         "symbol": "Is"
       },
       {
@@ -1232,6 +1384,7 @@
         "line2": "c_limit",
         "class": "resize",
         "number": 119,
+        "path": "c_lfill",
         "symbol": "Lf"
       },
       {
@@ -1240,14 +1393,16 @@
         "line2": "c_limit",
         "class": "resize",
         "number": 120,
+        "path": "c_limit",
         "symbol": "Li"
       },
       {
         "name": "Crop Limit Pad ",
         "line1": "limit pad",
-        "line2": "c_limit_pad",
+        "line2": "c_lpad",
         "class": "resize",
         "number": 121,
+        "path": "c_lpad",
         "symbol": "Lp"
       },
       {
@@ -1256,6 +1411,7 @@
         "line2": "c_mfit",
         "class": "resize",
         "number": 122,
+        "path": "c_mfit",
         "symbol": "Mf"
       },
       {
@@ -1264,6 +1420,7 @@
         "line2": "c_mpad",
         "class": "resize",
         "number": 123,
+        "path": "c_mpad",
         "symbol": "Mp"
       },
       {
@@ -1272,6 +1429,7 @@
         "line2": "c_pad",
         "class": "resize",
         "number": 124,
+        "path": "c_pad",
         "symbol": "Pa"
       },
       {
@@ -1280,6 +1438,7 @@
         "line2": "c_scale",
         "class": "resize",
         "number": 125,
+        "path": "c_scale",
         "symbol": "Sc"
       },
       {
@@ -1288,6 +1447,7 @@
         "line2": "c_thumb",
         "class": "resize",
         "number": 126,
+        "path": "c_thumb",
         "symbol": "Tb"
       }
       

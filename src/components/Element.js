@@ -11,7 +11,9 @@ class Element extends React.Component {
   }
 
   handleClick() {
-    this.props.handleElementClick(this.props.data);
+    console.log(this.props.data);
+    window.open(`https://cloudinary.com/documentation/transformation_reference#${this.props.data.path}`, '_blank');
+    // this.props.handleElementClick(this.props.data);
   }
 
   handleMouseOver(group) {
@@ -41,7 +43,7 @@ class Element extends React.Component {
         >
           <div className='number'>{this.props.data.number}</div>
           <div className='symbol'>{this.props.data.symbol}</div>
-          <div className='line1'>{this.props.data.line1}</div>
+          <div className='line1'>{this.props.data.name}</div>
           <div className='line2'>
             {this.props.data.line2}
           </div>

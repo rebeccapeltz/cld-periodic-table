@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../styles/PeriodicTable.scss';
 import Element from './Element';
+
 
 import data from '../data/data.json';
 const elements = data.elements;

@@ -5,16 +5,18 @@ import { ReactComponent as IconRotate } from './images/rotate-cw.svg';
 
 
 function App() {
+
+
   return (
-    <div className="container" tabIndex="0">
-      <div className="rotatewarning">
-					<IconRotate />
-					<span>Please rotate your device</span>
-					<p>The periodic table is much happier in landscape!</p>
-				</div>
-      <h1 className="title">Cloudinary Transformations</h1>
+    <div className='container' tabIndex='0'>
+      <div className='rotatewarning'>
+        <IconRotate />
+        <span>Please rotate your device</span>
+        <p>The periodic table is much happier in landscape!</p>
+      </div>
+      <h1 className='title'>Cloudinary Transformations</h1>
       <Legend />
-      <PeriodicTable  />
+      <PeriodicTable />
     </div>
   );
 }
