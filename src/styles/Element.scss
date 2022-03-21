@@ -1,0 +1,192 @@
+.Element {
+  border: 1px solid #fff;
+  overflow: hidden;
+  flex: 0 0 5.5556%;
+  background: #f2f2f2;
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 5.4vw;
+  cursor: pointer;
+  font-size: 0.76vw;
+  
+
+  .symbol {
+    font-weight: 700;
+    font-size: 1.7vw;
+    margin-bottom: 0.1vw;
+    font-family: 'Techna Sans', sans-serif;
+  }
+
+  .number {
+    position: absolute;
+    top: 0.3vw;
+    right: 0.3vw;
+  }
+
+  .name {
+    margin-bottom: 0.2vw;
+  }
+}
+
+.Element.placeholder {
+  cursor: default;
+
+  div {
+    pointer-events: none;
+  }
+
+  .name {
+    margin-top: 0.9rem;
+  }
+}
+
+.Element.blank {
+  border: 0;
+  // border: 1px solid #fff;
+  background: #fff;
+  height: 1.6vh;
+}
+
+.Element:not(.blank):not(.colhead):not(.placeholder):hover {
+  border: 1px solid #333;
+}
+
+.highlight_active .Element:not(.highlight):not(.colhead) {
+  opacity: 0.3;
+}
+
+.Element,
+.Minimap span {
+  &[data-category='transition metal'] {
+    background: #f7f6cc;
+  }
+}
+
+.Element,
+.Minimap span {
+  &[data-category='nonmetal'] {
+    background: #c0d7f0;
+  }
+}
+
+.Element,
+.Minimap span {
+  &[data-category='alkali metal'] {
+    background: #f7aac0;
+  }
+}
+
+.Element,
+.Minimap span {
+  &[data-category='alkaline earth metal'] {
+    background: #ffdca9;
+  }
+}
+
+.Element {
+  &[data-category='metalloid'] {
+    background: #93d9f5;
+  }
+}
+
+.Element {
+  &[data-category='post-transition metal'] {
+    background: #d4ebd8;
+  }
+}
+
+.Element {
+  &[data-category='noble gas'] {
+    background: #e1cfe5;
+  }
+}
+
+.Element {
+  &[data-category='lanthanide'] {
+    background: #fce0ed;
+  }
+}
+
+.Element {
+  &[data-category='actinide'] {
+    background: #fabfe2;
+  }
+}
+
+/* transformation colors */
+div.Element.aesthetic {
+  background-color: #fabed4;
+}
+
+div.Element.audio {
+  background-color: #fac9a6; 
+}
+
+div.Element.custom {
+  background-color: #ffe119;
+}
+
+div.Element.image {
+  background-color: #f58231;
+}
+
+div.Element.layer {
+  background-color: palegreen;
+}
+
+div.Element.optimization {
+  background-color: #ffd8b1;
+}
+
+div.Element.photoshop {
+  background-color: #fdf5e6;
+}
+
+div.Element.resolution {
+  background-color: #911eb4;
+}
+
+div.Element.size {
+  background-color: #f032e6;
+}
+
+div.div.Element.place {
+  background-color: #a9a9a9;
+}
+div.Element.sprite {
+  background-color: #f2e4fa;
+}
+div.Element.style {
+  background-color: #42d4f4;
+}
+
+div.Element.template {
+  background-color: #fffac8;
+}
+
+div.Element.attention {
+	background-color: #DEB887;
+}
+
+div.Element.audio-video {
+  background-color: #cda4ff; 
+}
+
+div.Element.effect {
+  background-color: #d3fdf8; 
+}
+
+div.Element.resize {
+  background-color: #f4ff6a;
+}
+
+.line1, .line2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
+	color: #333;
+	-webkit-text-size-adjust: 100%;
+}

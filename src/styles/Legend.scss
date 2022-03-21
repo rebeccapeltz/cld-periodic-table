@@ -1,0 +1,87 @@
+.legend {
+  width: 30%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1vw;
+  position: absolute;
+  top: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px_solid_black;
+  background-color: #f2f3f4;
+  z-index: 99;
+  border-radius: 10px;
+}
+.classify {
+  text-align: center;
+  padding: 1ch;
+  margin: 0.75ch;
+  width: 13ch;
+  background-color: pink;
+}
+
+.sprite {
+  background-color: #f2e4fa;
+}
+.style {
+  background-color: #42d4f4;
+}
+
+.template {
+  background-color: #fffac8;
+}
+
+.attention {
+  background-color: #deb887;
+}
+
+.audio-video {
+  background-color: #cda4ff;
+}
+.effect {
+  background-color: #d3fdf8;
+}
+.resize {
+    background-color: #f4ff6a;
+  }  div.Element.aesthetic {
+    background-color: #fabed4;
+  }
+  
+.audio {
+    background-color: #fac9a6; 
+  }
+  
+.custom {
+    background-color: #ffe119;
+  }
+  
+.image {
+    background-color: #f58231;
+  }
+  
+.layer {
+    background-color: palegreen;
+  }
+  
+.optimization {
+    background-color: #ffd8b1;
+  }
+  
+.photoshop {
+    background-color: #fdf5e6;
+  }
+  
+.resolution {
+    background-color: #911eb4;
+  }
+  
+.size {
+    background-color: #f032e6;
+  }
+  
+.place {
+    background-color: #a9a9a9;
+  }
