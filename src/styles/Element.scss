@@ -32,17 +32,7 @@
   }
 }
 
-.Element.placeholder {
-  cursor: default;
 
-  div {
-    pointer-events: none;
-  }
-
-  .name {
-    margin-top: 0.9rem;
-  }
-}
 
 .Element.blank {
   border: 0;
@@ -58,63 +48,10 @@
   opacity: 0.3;
 }
 
-.Element,
-.Minimap span {
-  &[data-category='transition metal'] {
-    background: #f7f6cc;
-  }
-}
 
-.Element,
-.Minimap span {
-  &[data-category='nonmetal'] {
-    background: #c0d7f0;
-  }
-}
 
-.Element,
-.Minimap span {
-  &[data-category='alkali metal'] {
-    background: #f7aac0;
-  }
-}
 
-.Element,
-.Minimap span {
-  &[data-category='alkaline earth metal'] {
-    background: #ffdca9;
-  }
-}
 
-.Element {
-  &[data-category='metalloid'] {
-    background: #93d9f5;
-  }
-}
-
-.Element {
-  &[data-category='post-transition metal'] {
-    background: #d4ebd8;
-  }
-}
-
-.Element {
-  &[data-category='noble gas'] {
-    background: #e1cfe5;
-  }
-}
-
-.Element {
-  &[data-category='lanthanide'] {
-    background: #fce0ed;
-  }
-}
-
-.Element {
-  &[data-category='actinide'] {
-    background: #fabfe2;
-  }
-}
 
 /* transformation classification colors */
 div.Element.aesthetic {
@@ -176,7 +113,7 @@ div.Element.audio-video {
 }
 
 div.Element.effect {
-  background-color: #d3fdf8; 
+  background-color: #b6d2ff; 
 }
 
 div.Element.resize {
@@ -197,4 +134,30 @@ div.Element.resize {
 	color: #333;
   font-size: 0.49vw;
 	-webkit-text-size-adjust: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,.7);
+}
+.Element:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }

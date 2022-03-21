@@ -13,11 +13,11 @@ class Element extends React.Component {
   handleClick() {
     console.log(this.props.data);
     window.open(`https://cloudinary.com/documentation/transformation_reference#${this.props.data.path}`, '_blank');
-    // this.props.handleElementClick(this.props.data);
   }
 
   handleMouseOver(group) {
-    this.props.handleMouseOver(group);
+    console.log("data",this.props.data);
+    
   }
 
   handleMouseOut() {
@@ -39,7 +39,8 @@ class Element extends React.Component {
         <div
           className={classes.join(' ')}
           onClick={this.handleClick}
-          data-category={this.props.data.category}
+          onMouseOver={this.handleMouseOver}
+          data-classify={this.props.data.classify}
         >
           <div className='number'>{this.props.data.number}</div>
           <div className='symbol'>{this.props.data.symbol}</div>
@@ -47,6 +48,9 @@ class Element extends React.Component {
           <div className='line2'>
             {this.props.data.line2}
           </div>
+          <div class="overlay">
+    <div class="text">{this.props.data.name}</div>
+  </div>
         </div>
       );
     }

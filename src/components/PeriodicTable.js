@@ -1,144 +1,44 @@
 import React from 'react';
 import '../styles/PeriodicTable.scss';
+import Legend from './Legend';
 import Element from './Element';
 
 import data from '../data/transformations.json';
 const elements = data.elements;
 
-class PeriodicTable extends React.Component{
+class PeriodicTable extends React.Component {
+  constructor(props) {
+    super(props);
 
-	constructor(props) {
-		super(props);
+    this.state = {
+      formatted_elements: [],
+    };
 
-		this.state = {
-			formatted_elements: [],
-			highlighted_period: null,
-			highlighted_column: null,
-			highlighted_other: null
-		};
-		
-		this.handleElementClick = this.handleElementClick.bind(this);
-		this.handleColheadMouseOver = this.handleColheadMouseOver.bind(this);
-		this.handleColheadMouseOut = this.handleColheadMouseOut.bind(this);
-		this.handleGroupMouseOver = this.handleGroupMouseOver.bind(this);
-		this.handleGroupMouseOut = this.handleGroupMouseOut.bind(this);
-	}
+  
 
-	componentDidMount() {
-		
-		
+  }
 
-		let i = elements.length;
-		while (i--) {
-			// Capitalise appearance and category
-			if (elements[i].appearance) {
-				const appearance = capitaliseFirstLetter(elements[i].appearance);
-				elements[i].appearance = appearance;
-			}
+  componentDidMount() {
+    this.setState({
+      formatted_elements: elements,
+    });
+  }
 
-			if (elements[i].category) {
-				const category = capitaliseFirstLetter(elements[i].category);
-				elements[i].category_fmt = category;
-			}
+  render() {
+    let classes = ['PeriodicTable'];
 
-			// Normalise nonmetals
-			if (elements[i].category === 'diatomic nonmetal' || elements[i].category === 'polyatomic nonmetal') {
-				elements[i].category = 'nonmetal';
-			}
-		}
-
-		let formatted_elements = elements; //elements.concat(lanthanides, actinides);
-
-		// Insert spaces into elements array to correctly lay out table
-
-		// insertBlanks(1, 16, formatted_elements);
-		// insertBlanks(20, 10, formatted_elements);
-		// insertBlanks(38, 10, formatted_elements);
-		// insertBlanks(124, 20, formatted_elements);
-		// insertBlanks(159, 3, formatted_elements);
-
-		// insertPlaceholder('Lanthanides', 'lanthanide', 92, formatted_elements);
-		// insertPlaceholder('Actinides', 'actinide', 110, formatted_elements);
-
-		// TODO: Reformat electron configuration here
-
-		this.setState({
-			formatted_elements: formatted_elements
-		});
-
-	}
-
-	handleElementClick(data) {
-		this.props.handleElementClick(data);
-	}
-
-	handleColheadMouseOver(num) {
-		this.setState({
-			highlighted_column: num
-		});
-	}
-
-	handleColheadMouseOut() {
-		this.setState({
-			highlighted_column: null
-		});
-	}
-
-	handleGroupMouseOver(group) {
-		this.setState({
-			highlighted_other: group
-		})
-	}
-
-	handleGroupMouseOut() {
-		this.setState({
-			highlighted_other: null
-		})
-	}
-	
-	render() {
-
-		let classes = ['PeriodicTable'];
-		if (this.state.highlighted_column || this.state.highlighted_period || this.state.highlighted_other) { classes.push('highlight_active'); }
-
-		return (
-			<div className={classes.join(' ')}>
-				<div className="elements">
-					{this.state.formatted_elements.map((element) =>
-						<Element key={element.number} data={element} handleElementClick={this.handleElementClick} handleMouseOver={this.handleGroupMouseOver} handleMouseOut={this.handleGroupMouseOut} highlight={
-							((element.period === this.state.highlighted_period || element.xpos === this.state.highlighted_column) && element.category !== 'lanthanide' && element.category !== 'actinide')
-							||
-							(element.category === this.state.highlighted_other)
-						} />
-					)}
-				</div>
-			</div>
-		);
-
-	}
-
+    return (
+      <div>
+        <Legend/>
+        <div className={classes.join(' ')}>
+          <div className='elements'>
+            {this.state.formatted_elements.map((element) => (
+              <Element key={element.number} data={element} />
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
-
-
-
-// let nextBlankId = 200;
-
-// function insertBlanks(start, num_blanks, data) {
-// 	for (let x = 0; x < num_blanks; x++) {
-// 		data.splice(start, 0, { "name": "Blank", "number": nextBlankId });
-// 		nextBlankId++;
-// 	}
-// 	return data;
-// }
-
-// function insertPlaceholder(name, category, start, data) {
-// 	data.splice(start, 0, { "name": name, "number": nextBlankId, "category": category });
-// 	nextBlankId++;
-// 	return data;
-// }
-
-function capitaliseFirstLetter(string) {
-	return string.charAt(0).toUpperCase() + string.substring(1);
-}
-
 export default PeriodicTable;
