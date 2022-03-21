@@ -253,7 +253,7 @@
     {
       "name": "Quality",
       "line1": "quality",
-      "line2": "dpr_",
+      "line2": "q_",
       "class": "optimization",
       "number": 6,
       "symbol": "Q"
