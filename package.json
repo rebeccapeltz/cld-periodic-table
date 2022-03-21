@@ -2,7 +2,7 @@
   "name": "cld-periodic-table",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cloudinary-training.github.io/cld-periodic-table",
+  "homepage": "https://www.beckypeltz.me/cld-periodic-table/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
