@@ -40,14 +40,7 @@
   height: 1.6vh;
 }
 
-// .Element:not(.blank):not(.colhead):not(.placeholder):hover {
-//   border: 1px solid #333;
-// }
-
-// .highlight_active .Element:not(.highlight):not(.colhead) {
-//   opacity: 0.3;
-// }
-
+// for now
 .highlight {
   color: red;
 }
@@ -155,7 +148,7 @@ div.Element.resize {
 }
 .text {
   color: white;
-  font-size: 20px;
+  font-size: .75rem;
   position: absolute;
   top: 50%;
   left: 50%;
