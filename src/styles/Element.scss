@@ -40,15 +40,17 @@
   height: 1.6vh;
 }
 
-.Element:not(.blank):not(.colhead):not(.placeholder):hover {
-  border: 1px solid #333;
+// .Element:not(.blank):not(.colhead):not(.placeholder):hover {
+//   border: 1px solid #333;
+// }
+
+// .highlight_active .Element:not(.highlight):not(.colhead) {
+//   opacity: 0.3;
+// }
+
+.highlight {
+  color: red;
 }
-
-.highlight_active .Element:not(.highlight):not(.colhead) {
-  opacity: 0.3;
-}
-
-
 
 
 
