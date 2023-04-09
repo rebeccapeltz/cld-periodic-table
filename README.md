@@ -13,4 +13,6 @@ Inspiration and coding techniques.
 [Periodic Table](https://github.com/fraserboag/periodictable)    
 [3D Periodic Table](https://threejs.org/examples/css3d_periodictable.html)  
 [Creating a Periodic Table with Grid CSS](https://responsivedesign.is/articles/creating-the-periodic-table-with-grid-css/)  
-[Periodic Table of Australian Startups](https://www.freecodecamp.org/news/the-periodic-table-of-australian-startups-4ab76b79ee34/)  
+[Periodic Table of Australian Startups](https://www.freecodecamp.org/news/the-periodic-table-of-australian-startups-4ab76b79ee34/)
+
+review 
